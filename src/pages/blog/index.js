@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import styled from '@emotion/styled'
 
 import Layout from "../../components/layout"
 
@@ -13,7 +12,7 @@ export default function Blog() {
       Blog
       <div>
         <ul>
-          <li>2020-11-14 // <Link href="blog/sogurs-fair-token-distribution">Sögur's Fair Token Distribution</Link></li>
+          <li>2020-11-14 // <Link href="sogurs-fair-token-distribution">Sögur's Fair Token Distribution</Link></li>
         </ul>
       </div>
     </Layout>
