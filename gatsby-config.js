@@ -5,6 +5,10 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    siteUrl: 'https://jamesonhodge.com'
+  },
+  plugins: [
+    'gatsby-plugin-cname'
+  ],
 }

@@ -17,6 +17,7 @@
     "@emotion/react": "^11.0.0",
     "@emotion/styled": "^11.0.0",
     "gatsby": "^2.25.3",
+    "gatsby-plugin-cname": "^1.0.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
