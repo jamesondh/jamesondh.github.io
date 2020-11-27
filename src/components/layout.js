@@ -7,6 +7,12 @@ const Container = styled.div`
   margin: auto;
   width: 80%;
   padding: 10px;
+  @media (max-width: 1000px) {
+    width: 95%
+  }
+  @media (min-width: 2000px) {
+    width: 1000px
+  }
 `
 
 export default function Layout({ children }) {
@@ -14,6 +20,8 @@ export default function Layout({ children }) {
     <>
       <title>Jameson Hodge</title>
       <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet"/>
+       <link rel="preconnect" href="https://fonts.gstatic.com"/>
+      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet"/>
       <Container>
         {children}
       </Container>
