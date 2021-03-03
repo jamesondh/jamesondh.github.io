@@ -32,7 +32,7 @@ export default function Home() {
 
       <p>I invest myself in solving socioeconomic problems with crypto networks, and spend some of my free time writing music and creating art. I am currently working with <a href="https://www.opensourcestrategies.com/">Open Source Strategies</a> developing climate action networks, DAO (decentralized autonomous organization), and carbon accounting tokens, and am actively enaged in research for NFTs, DeFi and automated market makers, cryptography and zero-knowledge proofs, governance, and portfolio management. I am a fellow at <a href="https://kernel.community/">KERNEL</a>, currently engaged in block 2 in the security track. My alma mater is SPSU, from which I have a B.S. in computer science. Hiking and meditation are cool too. <a href="mailto:contact@jamesonhodge.com">Email me</a> to get in touch!&nbsp;<i className="em em-slightly_smiling_face" aria-label="SLIGHTLY SMILING FACE"></i></p>
 
-      <p>Tech: Ethereum, React.js, Optimism, Cardano, Hyperledger Fabric, NEAR, JavaScript, Python, Solidity, Rust, Git, Linux</p>
+      <p>Tech: Ethereum, React.js, Optimism, Cardano, Hyperledger Fabric, NEAR, JavaScript, Python, Solidity, Rust, Git, Linux, Gentoo, Emacs</p>
 
       <AlbumArtContainer>
           <a href="https://soundcloud.com/jamesonhodge/i-sought-and-found-nothing"><AlbumArt src="https://i1.sndcdn.com/artworks-zCdzqrqnSDVDZ29n-o94YlQ-t500x500.jpg" alt="I Sought and Found Nothing cover art"/></a>
