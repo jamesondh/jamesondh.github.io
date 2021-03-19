@@ -1,16 +1,12 @@
 body {
   background-color: #0d0d0d;
   color: white;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: monospace;
   line-height: 1.5;
 }
 
 a {
   color: white;
-}
-
-a:hover {
-  color: #cc00cc;
 }
 
 hr {

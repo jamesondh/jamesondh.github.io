@@ -5,16 +5,15 @@ import styled from '@emotion/styled'
 import Layout from "../components/layout"
 
 const AlbumArt = styled.img`
-  width: 100px;
-  margin-right: 7px;
-  margin-left: 7px;
+  width: 60px;
+  margin: 14px;
   :hover {
     box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.1), -6px -2px 16px 0px rgba(255, 255, 255, 0.2);
   }
 `
 const AlbumArtContainer = styled.div`
   text-align: center;
-  margin-top: 3em;
+  margin-top: 2.5em;
 `
 const Socials = styled.p`
   text-align: center;
@@ -30,9 +29,17 @@ export default function Home() {
       </Link>
       <h1>Jameson Hodge <i className="em em-mage" aria-label="MAGE"></i><i className="em em-camping" aria-label=""></i><i className="em em-musical_keyboard" aria-label="MUSICAL KEYBOARD"></i></h1>
 
-      <p>I invest myself in solving socioeconomic problems with crypto networks, and spend some of my free time writing music and creating art. I am currently working with <a href="https://www.opensourcestrategies.com/">Open Source Strategies</a> developing climate action networks, DAO (decentralized autonomous organization), and carbon accounting tokens, and am actively enaged in research for NFTs, DeFi and automated market makers, cryptography and zero-knowledge proofs, governance, and portfolio management. I am a fellow at <a href="https://kernel.community/">KERNEL</a>, currently engaged in block 2 in the security track. My alma mater is SPSU, from which I have a B.S. in computer science. Hiking and meditation are cool too. <a href="mailto:contact@jamesonhodge.com">Email me</a> to get in touch!&nbsp;<i className="em em-slightly_smiling_face" aria-label="SLIGHTLY SMILING FACE"></i></p>
+      <p>I build and invest in crypto networks<sup><a href="blog/what-is-a-crypto-network">[?]</a></sup> that are eating the world. I am driven by these theses:</p>
 
-      <p>Tech: Ethereum, React.js, Optimism, Cardano, Hyperledger Fabric, NEAR, JavaScript, Python, Solidity, Rust, Git, Linux, Gentoo, Emacs</p>
+      <ol>
+        <li>Realigning economic incentives by non-coercive, transparent, and permissionless institutions is key to contending with the tragedy of the commons.</li>
+        <li>Value will continue to accrue primarily over the internet until nearly all things of scarcity can be represented digitally.</li>
+        <li>Institutions are abstractions created to serve collections of individuals, thus they ought to be designed to maximize the autonomy of each participant.</li>
+      </ol>
+
+      <p>I am currently working with <a href="https://www.opensourcestrategies.com/">Open Source Strategies</a> developing a carbon accounting token network and DAO (decentralized autonomous organization) for the <a href="https://wiki.hyperledger.org/display/CASIG/Climate+Action+and+Accounting+SIG+Home">Hyperledger Climate Action and Accounting SIG</a> and am engaged in independent research for NFTs, DeFi and automated market makers, blockchain scaling, cryptography and zero-knowledge proofs, governance, and automated portfolio management. I am a fellow at <a href="https://kernel.community/">KERNEL</a> and have a B.S. in Computer Science from SPSU. I produce electronic music and have released a few sound design packs in the past. I like climbing trees and meditation too. <a href="mailto:contact@jamesonhodge.com">Email me</a> to get in touch!&nbsp;<i className="em em-slightly_smiling_face" aria-label="SLIGHTLY SMILING FACE"></i></p>
+
+      <p>Tech: Ethereum, React, Hyperledger Fabric, NEAR, Sia Skynet, IPFS, JavaScript, Python, Solidity, Rust, Git, Linux, Emacs</p>
 
       <AlbumArtContainer>
           <a href="https://soundcloud.com/jamesonhodge/i-sought-and-found-nothing"><AlbumArt src="https://i1.sndcdn.com/artworks-zCdzqrqnSDVDZ29n-o94YlQ-t500x500.jpg" alt="I Sought and Found Nothing cover art"/></a>
@@ -46,6 +53,9 @@ export default function Home() {
       <Socials>
         <a href="https://twitter.com/jamesonhodge">Twitter</a> – <a href="https://github.com/jamesondh">GitHub</a> – <a href="https://audius.co/jamesonhodge">Audius</a> – <a href="https://soundcloud.com/jamesonhodge">SoundCloud</a> – <a href="https://jamesonhodge.bandcamp.com/">Bandcamp</a> – <a href="https://open.spotify.com/artist/6eoS42oBq9Et9uY0NKYAKs">Spotify</a>
       </Socials>
+
+      <p style={{textAlign: 'center', marginTop: '3em'}}><small>Last updated March 2021</small></p>
+
     </Layout>
   )
 }
