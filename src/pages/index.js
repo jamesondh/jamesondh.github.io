@@ -29,7 +29,7 @@ export default function Home() {
       </Link>
       <h1>Jameson Hodge <i className="em em-mage" aria-label="MAGE"></i><i className="em em-camping" aria-label=""></i><i className="em em-musical_keyboard" aria-label="MUSICAL KEYBOARD"></i></h1>
 
-      <p>I build and invest in crypto networks<sup><a href="blog/what-is-a-crypto-network">[?]</a></sup> that are eating the world. I am driven by these theses:</p>
+      <p>I build, research, and invest in crypto networks<sup><a href="blog/what-is-a-crypto-network">[?]</a></sup> and sometimes make music and art. I am driven by these theses:</p>
 
       <ol>
         <li>Realigning economic incentives by non-coercive, transparent, and permissionless institutions is key to contending with the tragedy of the commons.</li>
@@ -37,7 +37,7 @@ export default function Home() {
         <li>Institutions are abstractions created to serve collections of individuals, thus they ought to be designed to maximize the autonomy of each participant.</li>
       </ol>
 
-      <p>I am currently working with <a href="https://www.opensourcestrategies.com/">Open Source Strategies</a> developing a carbon accounting token network and DAO (decentralized autonomous organization) for the <a href="https://wiki.hyperledger.org/display/CASIG/Climate+Action+and+Accounting+SIG+Home">Hyperledger Climate Action and Accounting SIG</a> and am engaged in independent research for NFTs, DeFi and automated market makers, blockchain scaling, cryptography and zero-knowledge proofs, governance, and automated portfolio management. I am a fellow at <a href="https://kernel.community/">KERNEL</a> and have a B.S. in Computer Science from SPSU. I produce electronic music and have released a few sound design packs in the past. I like climbing trees and meditation too. <a href="mailto:contact@jamesonhodge.com">Email me</a> to get in touch!&nbsp;<i className="em em-slightly_smiling_face" aria-label="SLIGHTLY SMILING FACE"></i></p>
+      <p>I am currently working with <a href="https://www.opensourcestrategies.com/">Open Source Strategies</a> developing a carbon accounting token network and DAO (decentralized autonomous organization) for the <a href="https://wiki.hyperledger.org/display/CASIG/Climate+Action+and+Accounting+SIG+Home">Hyperledger Climate Action and Accounting SIG</a> and am engaged in independent research for NFTs, DeFi and automated market makers, blockchain scaling, cryptography and zero-knowledge proofs, governance, and automated portfolio management. I am a fellow at <a href="https://kernel.community/">KERNEL</a>, an occasional <a href="https://gitcoin.co/">Gitcoin</a> hacker, and have a B.S. in Computer Science from <a href="https://ccse.kennesaw.edu/">SPSU</a>. I produce electronic music and have released a few sound design packs in the past. I like climbing trees and meditation too. <a href="mailto:contact@jamesonhodge.com">Email me</a> to get in touch!&nbsp;<i className="em em-slightly_smiling_face" aria-label="SLIGHTLY SMILING FACE"></i></p>
 
       <p>Tech: Ethereum, React, Hyperledger Fabric, NEAR, Sia Skynet, IPFS, JavaScript, Python, Solidity, Rust, Git, Linux, Emacs</p>
 
