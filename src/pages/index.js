@@ -28,6 +28,7 @@ export default function Home() {
         Blog
       </Link>
       <h1>Jameson Hodge <i className="em em-mage" aria-label="MAGE"></i><i className="em em-camping" aria-label=""></i><i className="em em-musical_keyboard" aria-label="MUSICAL KEYBOARD"></i></h1>
+      <h5>jamesonhodge.eth / jamesonhodge.near</h5>
 
       <p>I build, research, and invest in crypto networks<sup><a href="blog/what-is-a-crypto-network">[?]</a></sup> and sometimes make music and art. I am driven by these theses:</p>
 
