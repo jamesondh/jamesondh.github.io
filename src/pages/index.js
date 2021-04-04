@@ -4,6 +4,9 @@ import styled from '@emotion/styled'
 
 import Layout from "../components/layout"
 
+const TitleText = styled.h1`
+  margin-bottom: 12px;
+`
 const AlbumArt = styled.img`
   width: 60px;
   margin: 14px;
@@ -18,6 +21,14 @@ const AlbumArtContainer = styled.div`
 const Socials = styled.p`
   text-align: center;
   margin-top: 2.4em;
+  h5 {
+  margin-top: 15px;
+  }
+`
+const FooterText = styled.div`
+  text-align: center;
+  margin-top: 2em;
+  p { color: grey  }
 `
 
 export default function Home() {
@@ -27,8 +38,7 @@ export default function Home() {
       <Link href="/blog">
         Blog
       </Link>
-      <h1>Jameson Hodge <i className="em em-mage" aria-label="MAGE"></i><i className="em em-camping" aria-label=""></i><i className="em em-musical_keyboard" aria-label="MUSICAL KEYBOARD"></i></h1>
-      <h5>jamesonhodge.eth / jamesonhodge.near</h5>
+      <TitleText>Jameson Hodge <i className="em em-mage" aria-label="MAGE"></i></TitleText>
 
       <p>I build, research, and invest in crypto networks<sup><a href="blog/what-is-a-crypto-network">[?]</a></sup> and sometimes make music and art. I am driven by these theses:</p>
 
@@ -53,9 +63,14 @@ export default function Home() {
 
       <Socials>
         <a href="https://twitter.com/jamesonhodge">Twitter</a> – <a href="https://github.com/jamesondh">GitHub</a> – <a href="https://audius.co/jamesonhodge">Audius</a> – <a href="https://soundcloud.com/jamesonhodge">SoundCloud</a> – <a href="https://jamesonhodge.bandcamp.com/">Bandcamp</a> – <a href="https://open.spotify.com/artist/6eoS42oBq9Et9uY0NKYAKs">Spotify</a>
+        <h5>jamesonhodge.eth &emsp; jamesonhodge.near &emsp; y.at/🍄🦌🔮🕸️</h5>
       </Socials>
 
-      <p style={{textAlign: 'center', marginTop: '3em'}}><small>Last updated March 2021</small></p>
+      <FooterText>
+        <p>---</p>
+        <br/>
+        <small>Last updated April 2021</small>
+      </FooterText>
 
     </Layout>
   )
