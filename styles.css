@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-size: 120%;
+    font-family: "Computer Modern Serif", serif;
+    line-height: 1.5;
+    background-color: #0d0d0d;
+    color: #fff;
+}
+a, a:visited {
+    color: white;
+}
+h1 {
+    font-size: 130%;
+    text-align: center;
+}
+#main {
+    margin: auto;
+    width: 80%;
+    max-width: 1000px;
+    padding: 10px;
+    padding-top: 20px;
+}
+#socials {
+    text-align: center;
+    font-size: 80%;
+}
+#contact {
+    margin-top: 20px;
+}
+.toggle-checkbox {
+    display: none;
+}
+.toggle-label {
+    display: inline-block;
+    cursor: pointer;
+    border-bottom: grey dotted 1px;
+}
+.hidden-paragraph {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s ease, margin 0.5s ease;
+    margin: 0;
+}
+#toggle-crypto:checked ~ #paragraph-crypto,
+#toggle-music:checked ~ #paragraph-music,
+#toggle-consciousness:checked ~ #paragraph-consciousness,
+#toggle-urbanism:checked ~ #paragraph-urbanism {
+    max-height: 400px;
+    margin-top: 20px;
+}
+.grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grid .grid-element {
+    width: calc(33.33% - 20px); 
+    flex: 0 0 auto;
+    height: auto;
+    text-align: center;
+}
+.grid .grid-element h5 {
+    font-family: "Computer Modern Serif Slanted";
+    font-style: italic;
+    margin: 5px 0;
+}
+.grid .grid-element img {
+    max-width: 100%;
+}
+.grid .grid-element .links {
+    padding: 5px 0;
+}
+.only-mobile {
+    display: none;
+    margin-bottom: 10px;
+}
+@media (max-width: 600px) {
+    body {
+        font-size: 150%;
+    }
+    h1 {
+        font-size: 160%;
+    }
+    .only-desktop {
+        display: none;
+    }
+    .only-mobile {
+        display: block;
+    }
+    .grid {
+        flex-direction: column;
+    }
+    .grid .grid-element {
+        width: 100%;
+    }
+}
